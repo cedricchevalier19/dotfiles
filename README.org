@@ -1,0 +1,14 @@
+* Install Rust
+
+** Pre-requis
+rust
+
+** Tools
+#+BEGIN_SRC bash
+cargo install bat cargo-install-update fd-find git-delta
+#+END_SRC
+
+** Prompt
+#+BEGIN_SRC bash
+cargo install mcfly starship
+#+END_SRC
