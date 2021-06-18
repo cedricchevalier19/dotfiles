@@ -13,6 +13,12 @@ cargo install bat cargo-install-update fd-find git-delta
 cargo install mcfly starship
 #+END_SRC
 
+For fuzzy search:
+#+BEGIN_SRC bash
+set -gx MCFLY_FUZZY true
+#+END_SRC
+
+
 * Fish
 
 ** Fundle
