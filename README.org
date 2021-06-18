@@ -12,3 +12,30 @@ cargo install bat cargo-install-update fd-find git-delta
 #+BEGIN_SRC bash
 cargo install mcfly starship
 #+END_SRC
+
+* Fish
+
+** Fundle
+#+BEGIN_SRC fish
+curl -sfL https://git.io/fundle-install | fish
+#+END_SRC
+
+** Bass
+Use bash source files in fish
+
+#+BEGIN_SRC fish
+fundle install bass
+#+END_SRC
+
+* Dotfiles
+See https://antelo.medium.com/how-to-manage-your-dotfiles-with-git-f7aeed8adf8b
+
+** Use
+
+#+BEGIN_SRC bash
+git clone --bare https://github.com/USERNAME/dotfiles.git $HOME/.dotfiles
+alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+dotfiles checkout
+#+END_SRC
+
+
