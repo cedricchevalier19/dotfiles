@@ -15,7 +15,7 @@ cargo install mcfly starship
 
 For fuzzy search:
 #+BEGIN_SRC bash
-set -gx MCFLY_FUZZY true
+set -Ux MCFLY_FUZZY true
 #+END_SRC
 
 
