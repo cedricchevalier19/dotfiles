@@ -18,6 +18,11 @@ For fuzzy search:
 set -Ux MCFLY_FUZZY true
 #+END_SRC
 
+* Tmux
+** fuzzy search
+Install `fzf`
+
+Research is mapped on prefix + TAB
 
 * Fish
 
