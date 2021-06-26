@@ -45,3 +45,10 @@ dotfiles checkout
 #+END_SRC
 
 
+* Containers
+** Docker
+
+#+BEGIN_SRC bash
+sudo apt install docker.io
+sudo usermod -aG docker $USER
+#+END_SRC
