@@ -44,6 +44,11 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 dotfiles checkout
 #+END_SRC
 
+** Configuration
+Hide untracked files in `dotfiles status`
+#+BEGIN_SRC bash
+dotfiles config --local status.showUntrackedFiles no
+#+END_SRC
 
 * Containers
 ** Docker
