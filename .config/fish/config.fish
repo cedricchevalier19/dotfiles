@@ -14,5 +14,3 @@ end
 
 mcfly init fish | source
 
-# Ctrl-N: Complete based on the tmux buffer content.
-bind \cn "commandline -i (fzf-complete-from-tmux.sh) 2>/dev/null"
