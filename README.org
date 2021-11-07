@@ -24,6 +24,15 @@ Install `fzf`
 
 Research is mapped on prefix + TAB
 
+* Zellij
+
+For terminfo to work on remote computer, put this in ~/.ssh/config
+#+BEGIN_SRC bash
+SetEnv TERM=xterm-256color
+#+END_SRC
+
+Works for newer ssh.
+
 * Fish
 
 ** Fundle
