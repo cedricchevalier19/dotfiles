@@ -327,8 +327,8 @@ plugins:
 #simplified_ui: true
 
 # Choose the path to the default shell that zellij will use for opening new panes
-# Default: $SHELL
-# default_shell: fish
+Default: /usr/bin/fish
+default_shell: fish
 
 # Toggle between having pane frames around the panes
 # Options:
