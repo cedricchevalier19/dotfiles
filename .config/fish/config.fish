@@ -12,5 +12,5 @@ if not pgrep -f ssh-agent > /dev/null
   set -Ux SSH_AUTH_SOCK $SSH_AUTH_SOCK
 end
 
-mcfly init fish | source
+atuin init --disable-up-arrow fish | source
 
