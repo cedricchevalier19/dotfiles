@@ -8,14 +8,18 @@ rust
 cargo install bat cargo-install-update fd-find git-delta
 #+END_SRC
 
-** Prompt
+** Prompt and completion
+
+I use `starship` for prompt and `atuin` for history look-up.
+
 #+BEGIN_SRC bash
-cargo install mcfly starship
+cargo install atuin starship
 #+END_SRC
 
-For fuzzy search:
+Initialize history database
 #+BEGIN_SRC bash
-set -Ux MCFLY_FUZZY true
+atuin import bash
+atuin import fish
 #+END_SRC
 
 * Tmux
