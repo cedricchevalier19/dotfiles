@@ -25,4 +25,11 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
-. "$HOME/.cargo/env"
+
+if [ -d "/opt/homebrew/bin" ] ; then
+    PATH="/opt/homebrew/bin:$PATH"
+fi
+
+if [ -f "$HOME/.cargo/env" ] ; then
+    . "$HOME/.cargo/env"
+fi
