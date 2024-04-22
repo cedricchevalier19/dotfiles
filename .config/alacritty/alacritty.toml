@@ -16,7 +16,6 @@ unfocused_hollow = true
 log_level = "OFF"
 persistent_logging = false
 print_events = false
-ref_test = false
 render_timer = false
 
 [font]
@@ -341,12 +340,6 @@ hide_when_typing = true
 [[mouse.bindings]]
 action = "PasteSelection"
 mouse = "Middle"
-
-[mouse.double_click]
-threshold = 300
-
-[mouse.triple_click]
-threshold = 300
 
 [scrolling]
 history = 0
